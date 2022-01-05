@@ -1,0 +1,57 @@
+h1{
+    font-family: 'Love Light', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prata', serif;
+    font-family: 'Sail', cursive;
+    font-family: 'Vidaloka', serif;
+    font-size: 400%;
+    border-left: 4px solid;
+    padding-left: 10px;
+    border-top-style: hidden;
+    margin-left: 20%;
+    margin-top: 15%;
+    border-color: rgb(255, 70, 81);
+    height: 140px;
+}
+h2{
+    text-align: center;
+    font-size: 325%;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Love Light', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prata', serif;
+    font-family: 'Sail', cursive;
+    font-family: 'Vidaloka', serif;
+}
+.color-orange{
+    color: rgb(255, 168, 69)
+}
+a{
+    padding: 15px 42px;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to bottom, rgb(255, 93, 104),rgb(255, 72, 72));
+    border-radius: 5px;
+    margin-left: 20%;
+}
+.paragraph{
+    font-size: 150%;
+    margin-left: 20%;
+    padding-bottom: 10px;
+}
+.paragraph-two{
+    font-size: 150%;
+    margin-left: 20%;
+    padding-top: 10px;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 59%;
+    float: inline-start;
+    padding-left: 11%;
+}
