@@ -23,6 +23,9 @@ h2{
     font-family: 'Sail', cursive;
     font-family: 'Vidaloka', serif;
 }
+h3{
+    padding-left: 15px;
+}
 .color-orange{
     color: rgb(255, 168, 69)
 }
@@ -44,8 +47,17 @@ a{
     margin-left: 20%;
     padding-top: 10px;
 }
+.paragraph-three{
+    padding-left: 15px;
+    padding-right: 15px;
+}
 section{
     display: flex;
+}
+#section-two{
+    margin-left: 60px;
+    margin-right: 60px;
+    height: 150%;
 }
 .half-width{
     width: 50%;
@@ -55,13 +67,35 @@ section{
     float: inline-start;
     padding-left: 11%;
 }
-.half-width section{
-    width: 20%;
-}
-.illustrators-size img{
-    width: 35%;
-}
-.section-two{
+.half-width-second{
     width: 50%;
-    
+}
+.illustrators{
+    width: 40%;
+    padding: 10px
+}
+.illustrators-one{
+    border: 1px solid rgb(235, 245, 246);
+    border-radius: 20px;
+    padding: 25px 15px;
+    background-color: rgb(235, 245, 246);
+    width: 25%;
+    margin-left: 75px;
+}
+.illustrators-two{
+    border: 1px solid rgb(255, 237, 237);
+    border-radius: 20px;
+    padding: 25px 15px;
+    background-color: rgb(255, 237, 237);
+    width: 25%;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.illustrators-three{
+    border: 1px solid rgb(255, 243, 210);
+    border-radius: 20px;
+    padding: 25px 15px;
+    background-color: rgb(255, 243, 210);
+    width: 25%;
+    margin-right: 75px;
 }
