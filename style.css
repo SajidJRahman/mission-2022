@@ -1,17 +1,23 @@
+body{
+    margin: 0%;
+}
 #first-header{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'DM Serif Text', serif;
     font-family: 'Love Light', cursive;
+    font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-family: 'Prata', serif;
-    font-family: 'Sail', cursive;
-    font-family: 'Vidaloka', serif;
-    font-size: 400%;
-    border-left: 4px solid;
+    font-size: 350%;
     padding-left: 10px;
-    border-top-style: hidden;
+    border-left: 4px solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     margin-left: 20%;
     margin-top: 15%;
-    border-color: rgb(255, 70, 81);
-    height: 140px;
+    border-color: rgb(61, 136, 255);
+    height: 135px;
+    color: rgb(62, 62, 62);
 }
 h2{
     text-align: center;
@@ -26,50 +32,122 @@ h2{
 h3{
     padding-left: 15px;
 }
-#forth-header{
+#last-h1{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Love Light', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prata', serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: rgb(62, 62, 62);
+    font-size: 250%;
+    padding-top: 25%;
+}
+.header-four{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Love Light', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prata', serif;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(62, 62, 62);
     font-size: 250%;
 }
-.color-orange{
-    color: rgb(255, 168, 69)
+.color-blue{
+    color: rgb(61, 136, 255);
 }
 a{
-    
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Love Light', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prata', serif;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: white;
-    background-image: linear-gradient(to bottom, rgb(255, 93, 104),rgb(255, 72, 72));
+    background-color: rgb(61, 136, 255);
     border-radius: 5px;
 }
 #first-link{
-    padding: 15px 42px;
+    font-size: 93%;
+    padding: 12px 37px;
     margin-left: 20%;
 }
 #second-link{
-    padding: 15px 42px;
-    text-decoration: none;
-    color: white;
-    background-image: linear-gradient(to bottom, rgb(255, 93, 104),rgb(255, 72, 72));
-    border-radius: 5px;
+    font-size: 93%;
+    padding: 13px 30px;
     margin-left: 0%;
     margin-top: 50%;
 }
-.paragraph{
-    font-size: 150%;
-    margin-left: 20%;
-    padding-bottom: 10px;
+#third-link{
+    font-size: 93%;
+    padding: 13px 30px;
+    margin-top: 50%;
 }
-.paragraph-two{
-    font-size: 150%;
+#p-one{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Love Light', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prata', serif;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(62, 62, 62);
+    font-size: 120%;
     margin-left: 20%;
-    padding-top: 10px;
+    padding-bottom: 15px;
 }
-.paragraph-three{
+.p-two{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Love Light', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prata', serif;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(62, 62, 62);
+    font-size: 100%;
+    margin-left: 20%;
+    padding-top: 30px;
+}
+.p-three{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Love Light', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prata', serif;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 100%;
     padding-left: 15px;
     padding-right: 15px;
     
 }
-.paragraph-four{
-    font-size: 150%;
-    padding-bottom: 10px;
+.p-four{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Love Light', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prata', serif;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(62, 62, 62);
+    font-size: 120%;
+    padding-bottom: 15px;
+}
+#p-five{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Love Light', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prata', serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: rgb(166, 230, 255);
+    font-size: 120%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding-bottom: 25%;
+}
+.mission-vision-goals{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Love Light', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prata', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 170%;
 }
 section{
     display: flex;
@@ -79,11 +157,25 @@ section{
     margin-right: 60px;
     height: 150%;
 }
+#section-three{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 212px;
+    background-position: 16%;
+    width: 40%;
+}
+#section-four{
+    width: 50%;
+    padding-left: 135px;
+    padding-top: 110px;
+    padding-bottom: 150px;
+}
 .half-width{
     width: 50%;
+    padding-left: 20px;
 }
 .half-width img{
-    width: 59%;
+    width: 62%;
     float: inline-start;
     padding-left: 11%;
 }
@@ -91,31 +183,40 @@ section{
     width: 71%;
     margin-left: 135px;
     padding-top: 80px;
-    
 }
-#third-section{
-    background-image: url(images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    background-size: 212px;
-    background-position: 16%;
-    width: 40%;
+#project-image{
+    width: 79%;
+    padding-top: 90px;
+    margin-left: 85px;
 }
-#div{
+#div-one{
     width: 50%;
     padding-top: 80px;
     padding-left: 4%;
 }
-.half-width-second{
+#div-two{
+    width: 40%;
+    padding-right: 9%;
+}
+#div-three{
+    background-image: url(images/shapes/shape-6.png);
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: 50%;
     width: 50%;
+    margin-left: 27%;
+    margin-right: 25%;
 }
 .illustrators{
-    width: 40%;
-    padding: 10px
+    width: 45%;
+    padding: 10px;
+    padding-bottom: 0px;
 }
 .illustrators-one{
     border: 1px solid rgb(235, 245, 246);
     border-radius: 20px;
-    padding: 25px 15px;
+    padding: 15px 15px;
+    padding-bottom: 20px;
     background-color: rgb(235, 245, 246);
     width: 25%;
     margin-left: 75px;
@@ -123,7 +224,8 @@ section{
 .illustrators-two{
     border: 1px solid rgb(255, 237, 237);
     border-radius: 20px;
-    padding: 25px 15px;
+    padding: 15px 15px;
+    padding-bottom: 20px;
     background-color: rgb(255, 237, 237);
     width: 25%;
     margin-left: 25px;
@@ -132,8 +234,39 @@ section{
 .illustrators-three{
     border: 1px solid rgb(255, 243, 210);
     border-radius: 20px;
-    padding: 25px 15px;
+    padding: 15px 15px;
+    padding-bottom: 20px;
     background-color: rgb(255, 243, 210);
-    width: 25%;
+    width:25%;
     margin-right: 75px;
+}
+#footer{
+    padding-top: 5px;
+    padding-top: 150px;
+}
+#footer-two{
+    text-align: center;
+    padding: 15px 40px;
+    background-color: black;
+}
+#footer-three{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Love Light', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prata', serif;
+    font-family: 'Sail', cursive;
+    font-family: 'Vidaloka', serif;
+    font-size: 200%;
+    color: white;
+    padding-top: 20px;
+}
+#footer-four{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Love Light', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Prata', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 90%;
+    color: rgb(94, 108, 160);
+    padding-bottom: 20px;
 }
